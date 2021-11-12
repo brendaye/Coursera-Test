@@ -1,0 +1,93 @@
+body {
+	font-family: montserrat;
+}
+h1 { 
+	font-size: 30px;
+	text-align: center;
+}
+h2 {
+	font-size: 22px;
+  line-height: 18px;
+}
+p{
+	font-size: 16px;
+}
+
+
+* {
+	box-sizing: border-box;
+
+
+}
+
+.box {
+	background-color: #f8edeb;
+	border: 1px solid black;
+	padding: 50px 15px 10px 15px;
+  margin: 0.5%;
+  position: relative;
+}
+
+.innerbox {
+  /*padding: 1px 1px 10px 1px;*/
+  border: 1px solid black;
+  width: 50%;
+  height: 25%;
+  position: absolute;
+    top: 0;
+    right: 0;
+  text-align: center;
+}
+
+      #milktea {
+        background-color: #FAD2E1;
+      }
+      #matcha {
+        background-color: #E2ECE9;
+      }
+      #hotchocolate {
+        background-color: #DFE7FD;
+      }
+
+
+/**Large Devices**/
+@media (min-width: 992px) {
+  .box {
+    margin: .75%;
+    max-width: 31.83%;
+    float: left;
+  }
+}
+
+	
+
+/**Medium Devices**/
+@media (min-width: 768px) and (max-width: 991px) {
+  .box {
+    margin: 1.2%;
+    max-width: 47.6%;
+    float: left;
+  }
+
+  #box3 {
+    margin: 1.2%;
+    max-width: 98%;
+    float: left;
+  }
+  
+  #hotchocolate {
+    width: 25%;
+    height: 40%;
+  }
+}
+
+  
+
+/**Small Devices**/
+@media (max-width: 767px) {
+  .box {
+    margin: 1.5%;
+    max-width: 97%;
+    float: left;
+  }
+}
