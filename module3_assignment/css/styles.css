@@ -1,0 +1,21 @@
+body {
+	background-color: pink;
+} 
+.navbar {
+	border-radius: 0px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.menubox {
+	/*min-height: 1000px;*/
+	background-color: white;
+	padding: 25px;
+	margin:20px;
+}
+
+
+
